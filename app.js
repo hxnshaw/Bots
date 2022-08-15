@@ -7,7 +7,7 @@ const client = require("twilio")(
 client.messages
   .create({
     body: 'Greetings Mr Efe, uzon number 2. Enjoy the movie "prey" ',
-    from: "+xxx",
+    from: "+xxx-yyy-zzz",
     to: "+xxx",
   })
   .then((message) => console.log(message.sid))
